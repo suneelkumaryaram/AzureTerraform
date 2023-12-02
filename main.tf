@@ -1,13 +1,14 @@
 # Configure the Azure provider
 terraform {
-  cloud {
+/*  
+cloud {
     organization = "SuneelOrg"
 
     workspaces {
       name = "learn-terraform-cloud"
     }
   }
-
+*/
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
